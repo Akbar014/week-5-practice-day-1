@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if messages %}
+    {% for m in messages %}
+    <p class="bg-success p-3 text-white">{{m}}</p>
+    {% endfor %}
+{% endif %}
+
+<h5 class="text-center">Practice Day 1</h5>
+<div class="container mt-5">
+    This is a demo project for authentication  
+
+</div>
+
+{% endblock %}
